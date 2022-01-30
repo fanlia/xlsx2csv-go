@@ -1,2 +1,15 @@
 # xlsx2csv-go
-xlsx to csv with golang
+read xlsx from stdin and export csv to csv with golang
+
+## Usage
+
+```sh
+go build .
+cat data.xlsx | ./xlsx2csv-go
+```
+
+## License
+
+MIT
+
+
