@@ -28,6 +28,7 @@ func main() {
         }
         writer.Write(row)
     }
+    rows.Close()
     writer.Flush()
 
     if err = writer.Error(); err != nil {
