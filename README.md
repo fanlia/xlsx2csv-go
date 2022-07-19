@@ -5,7 +5,7 @@ read xlsx from stdin and export csv to csv with golang
 
 ```sh
 go build .
-cat data.xlsx | ./xlsx2csv-go
+./xlsx2csv-go < data.xlsx
 ```
 
 ## License
